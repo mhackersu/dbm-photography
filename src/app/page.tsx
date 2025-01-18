@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -13,13 +13,13 @@ export default function Home() {
       {/* Header Menu */}
       <div className="bg-gray-100 py-12 flex items-center justify-center uppercase tracking-widest text-xs text-gray-500">
         <a href="#" className="mx-4">Home</a>
-        <a href="#" className="mx-4">Online Booking</a>
-        <a href="#" className="mx-4">Photography Gallery</a>
-        <a href="#" className="mx-4">Get Connected</a>
+        <Link href="/gallery" className="mx-4">Gallery</Link>
+        <a href="#" className="mx-4">Clients</a>
       </div>
 
       {/* Centered Page Title & Subtitle */}
       <div className="py-24 text-center">
+        <img className="h-[125px] mx-auto block" src="https://res.cloudinary.com/desertsofcacti/image/upload/v1737243412/Double%20Bar%20M%20Photography/glyph_baqhqx.png" />
         <h1 className="text-4xl text-green-800 font-display uppercase tracking-widest">Double Bar M Photography</h1>
         <div className="w-full max-w-xs h-px bg-gray-300 my-6 mx-auto"></div>
         <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">Timeless photojournalism and photographic expertise</h2>
@@ -82,6 +82,8 @@ export default function Home() {
         <div className="container mx-auto grid grid-cols-4 py-24">
             <div>
                 <div className="text-white opacity-50 text-4xl font-display">HOWDY PARTNERS</div>
+                <br></br>
+                <div>New Client Onboarding</div>
             </div>
             <div>
                 <div className="font-display text-white uppercase text-sm tracking-widest mb-6">Services</div>
