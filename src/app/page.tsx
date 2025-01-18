@@ -2,19 +2,6 @@
 
 export default function Home() {
 
-  const slideshow = () => ({
-    current: 0,
-    images: [
-    'https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1993&q=80',
-    'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'
-    ],
-    init() {
-        window.setInterval(() => {
-            this.current = this.current < this.images.length - 1 ? this.current + 1 : 0
-        }, 4000);
-    }
-  });
-
   return (
     <div className="font-sans antialiased bg-gray-50">
       {/* Header Announcement */}
