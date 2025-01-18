@@ -11,7 +11,7 @@ export default function Home() {
       </div>
 
       {/* Header Menu */}
-      <div class="bg-gray-100 py-12 flex items-center justify-center uppercase tracking-widest text-xs text-gray-500">
+      <div className="bg-gray-100 py-12 flex items-center justify-center uppercase tracking-widest text-xs text-gray-500">
         <a href="#" className="mx-4">Home</a>
         <a href="#" className="mx-4">Online Booking</a>
         <a href="#" className="mx-4">Photography Gallery</a>
