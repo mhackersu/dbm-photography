@@ -13,7 +13,7 @@ export default function Pricing() {
           <h1 className="text-4xl text-green-800 font-display uppercase tracking-widest">Pricing</h1>
           <div className="w-full max-w-xs h-px bg-gray-300 my-6 mx-auto"></div>
           <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">
-          We offer a range of ceremony coverage for your perfect wedding.
+          We offer a range of ceremony coverage for your perfect wedding. We use only premium Fuji paper on all prints and enlargements. All frames are custom produced in-lab and mailed directly to your shipping address. We standby our quality 100% and only use the very best archival methods.
           <div>
             <table>
                 <caption>A-la-carte pricing</caption>
