@@ -1,18 +1,13 @@
 import Link from 'next/link'
 import "../app/globals.css";
+import Footer from '@/app/footer';
+import Header from '@/app/header';
 
 export default function Gallery() {
   
     return (
       <div>
-
-      {/* Header Menu */}
-        <div className="bg-gray-100 py-12 flex items-center justify-center uppercase tracking-widest text-xs text-gray-500">
-          <Link href="/" className="mx-4">Home</Link>
-          <a href="#" className="mx-4">Booking</a>
-          <Link href="/gallery" className="mx-4">Gallery</Link>
-          <a href="#" className="mx-4">Reservations</a>
-        </div>
+        <Header />
 
         <h1 className="px-12 py-24 text-center font-serif text-4xl text-slate-600">Wedding Gallery</h1>
         <div className="px-12 flex flex-wrap gap-4">

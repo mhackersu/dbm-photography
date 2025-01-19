@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import Footer from './footer';
+import Footer from '@/app/footer';
+import Header from '@/app/header';
 
 export default function Home() {
 
@@ -11,12 +12,7 @@ export default function Home() {
         <a href="#" className="underline">ONLINE RESERVATIONS</a>
       </div>
 
-      {/* Header Menu */}
-      <div className="bg-gray-100 py-12 flex items-center justify-center uppercase tracking-widest text-xs text-gray-500">
-        <a href="#" className="mx-4">Home</a>
-        <Link href="/gallery" className="mx-4">Gallery</Link>
-        <a href="#" className="mx-4">Clients</a>
-      </div>
+      <Header />
 
       {/* Centered Page Title & Subtitle */}
       <div className="py-24 text-center">
