@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import "../app/globals.css";
 import Footer from '@/app/footer';
 import Header from '@/app/header';
