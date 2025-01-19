@@ -21,7 +21,7 @@ export default function About() {
           <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">
           We value charity, courage, respect, and the heritage of our community. These principles inspire our work and shape our artistic approach.  
 Photography is our way of celebrating life and the human experience. Through our gallery, we showcase our dedication to craftsmanship and storytelling.  
-As wedding photographers, we are passionate about capturing the beauty and uniqueness of each couple's journey. Every wedding tells a one-of-a-kind story, and it is our honor to document these moments with care and precision. Your wedding day is a celebration, and we strive to preserve its magic through timeless, high-quality imagery.
+As wedding photographers, we are passionate about capturing the beauty and uniqueness of each couple&aposs journey. Every wedding tells a one-of-a-kind story, and it is our honor to document these moments with care and precision. Your wedding day is a celebration, and we strive to preserve its magic through timeless, high-quality imagery.
           </h2>
         </div>
 
