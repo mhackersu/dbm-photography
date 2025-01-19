@@ -7,7 +7,14 @@ export default function Gallery() {
     return (
       <div>
         <Header />
-        <h1 className="px-12 py-24 text-center font-serif text-4xl text-slate-600">Wedding Gallery</h1>
+        {/* Centered Page Title & Subtitle */}
+        <div className="py-24 text-center">
+          <h1 className="text-4xl text-green-800 font-display uppercase tracking-widest">Gallery</h1>
+          <div className="w-full max-w-xs h-px bg-gray-300 my-6 mx-auto"></div>
+          <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">
+
+          </h2>
+        </div>
         <div className="px-12 flex flex-wrap gap-4">
           <img className="w-auto h-72 flex-shrink object-cover" src="https://res.cloudinary.com/desertsofcacti/image/upload/v1737242160/Double%20Bar%20M%20Photography/EmilyWilsonBP11_0072_FAV_tjb7pj.jpg" />
           <img className="w-auto h-72 flex-shrink object-cover" src="https://res.cloudinary.com/desertsofcacti/image/upload/v1737242160/Double%20Bar%20M%20Photography/MarniGrantEP15_0589_urhkdl.jpg" />
