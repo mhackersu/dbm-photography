@@ -37,7 +37,7 @@ export default function Booking() {
             </div>
             <label className="ms-2 text-sm font-medium text-gray-900">Agree to <Link href="/terms">Terms & Conditions</Link></label>
           </div>
-          <button type="submit" className="text-white bg-slate-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Check Availability</button>
+          <button type="submit" className="text-white bg-slate-400 hover:bg-slate-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Check Availability</button>
         </form>
         <br></br>
         <Footer />
