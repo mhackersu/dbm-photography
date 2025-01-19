@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import "../app/globals.css";
+import "./styles/globals.css";
 
 export default function Header() {
   
@@ -10,7 +10,7 @@ export default function Header() {
             <Link href="/" className="mx-4">Home</Link>
             <Link href="/gallery" className="mx-4">Gallery</Link>
             <Link href="/about" className="mx-4">About</Link>
-            <a href="#" className="mx-4">Pricing</a>
+            <Link href="/pricing" className="mx-4">Pricing</Link>
             <Link href="/gallery" className="mx-4">Booking</Link>
             <a href="#" className="mx-4">Reservations</a>
         </div>
