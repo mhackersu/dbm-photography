@@ -24,7 +24,7 @@ export default function Pricing() {
                 </thead>
                 <tfoot>
                     <tr>
-                        <td colspan="3">*All prints are printed only on professional Fuji Lustre paper.</td>
+                        <td>*All prints are printed only on professional Fuji Lustre paper.</td>
                     </tr>
                 </tfoot>
                 <tbody>
