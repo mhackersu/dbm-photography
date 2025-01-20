@@ -1,4 +1,4 @@
-// import Link from 'next/link'
+import Link from 'next/link'
 import "./styles/globals.css";
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
             <div>
                 <div className="font-display text-white uppercase text-sm tracking-widest mb-6">Services</div>
-                <a href="#" className="block mb-4">Weddings & Portraits</a>
+                <Link href="/weddings" className="block mb-4">Weddings & Portraits</Link>
                 <a href="#" className="block mb-4">Commercial</a>
                 <a href="#" className="block mb-4">Reproduction</a>
                 <a href="#" className="block mb-4">Restoration</a>

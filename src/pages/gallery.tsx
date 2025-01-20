@@ -8,7 +8,7 @@ export default function Gallery() {
       <div>
         <Header />
         {/* Centered Page Title & Subtitle */}
-        <div className="py-24 text-center">
+        <div className="py-24 text-center bg-white">
           <h1 className="text-4xl text-green-800 font-display uppercase tracking-widest">Gallery</h1>
           <div className="w-full max-w-xs h-px bg-gray-300 my-6 mx-auto"></div>
           <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">
@@ -25,6 +25,7 @@ export default function Gallery() {
           <img className="w-auto h-72 flex-shrink object-cover" src="https://res.cloudinary.com/desertsofcacti/image/upload/v1737242157/Double%20Bar%20M%20Photography/633059_StephanieKevinWED12_0502_ioomoz.jpg" />
           <img className="w-auto h-72 flex-shrink object-cover" src="https://res.cloudinary.com/desertsofcacti/image/upload/v1737242100/Double%20Bar%20M%20Photography/NicoleKyriakosWED11_529_bym6or.jpg" />
         </div>
+        <br></br>
         <Footer />
       </div>
     );
