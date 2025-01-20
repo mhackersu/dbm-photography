@@ -14,7 +14,8 @@ export default function Footer() {
             </div>
             <div>
                 <div className="font-display text-white uppercase text-sm tracking-widest mb-6">Services</div>
-                <Link href="/weddings" className="block mb-4">Weddings & Portraits</Link>
+                <Link href="/weddings" className="block mb-4">Weddings</Link>
+                <Link href="/portraits" className="block mb-4">Portraits</Link>
                 <a href="#" className="block mb-4">Commercial</a>
                 <a href="#" className="block mb-4">Reproduction</a>
                 <a href="#" className="block mb-4">Restoration</a>

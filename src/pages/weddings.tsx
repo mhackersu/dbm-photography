@@ -1,9 +1,20 @@
 import "../app/styles/globals.css";
+import Header from "@/app/header";
+import Footer from "@/app/footer";
 
 export default function Weddings() {
   
     return (
       <div>
+        <Header />
+          {/* Centered Page Title & Subtitle */}
+          <div className="py-24 text-center bg-white">
+          <h1 className="text-4xl text-green-800 font-display uppercase tracking-widest">Wedding Photography</h1>
+          <div className="w-full max-w-xs h-px bg-gray-300 my-6 mx-auto"></div>
+          <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">
+          In addition to a complete range of wedding ceremony & reception photography coverage for your wedding, we offer engagement photography and bridal portraits.
+          </h2>
+        </div>
         <div className="flex">
         <img src="https://res.cloudinary.com/desertsofcacti/image/upload/v1737235637/Double%20Bar%20M%20Photography/MarniGrantEP15_0248_uvuryb.jpg" className="w-7/12 h-96 object-cover" />
         <div className="w-5/12 relative flex flex-col justify-end">
@@ -46,6 +57,7 @@ export default function Weddings() {
         </div>
         </div>
         <br></br>
+        <Footer />
       </div>
     );
 }

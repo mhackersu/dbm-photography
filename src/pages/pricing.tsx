@@ -13,7 +13,7 @@ export default function Pricing() {
           <h1 className="text-4xl text-green-800 font-display uppercase tracking-widest">Pricing</h1>
           <div className="w-full max-w-xs h-px bg-gray-300 my-6 mx-auto"></div>
           <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">
-          We offer a range of ceremony coverage for your perfect wedding. We use only premium Fuji paper on all prints and enlargements. All frames are custom produced in-lab and mailed directly to your shipping address. We standby our quality 100% and only use the very best archival methods.
+          All prints are exclusively printed on premium Fuji Lustre E6 paper.
           <div>
             <table>
                 <caption>A-la-carte pricing</caption>
@@ -25,45 +25,52 @@ export default function Pricing() {
                 </thead>
                 <tfoot>
                     <tr>
-                        <td>*All prints are printed only on professional Fuji Lustre paper.</td>
+                        <td>*We ship picture perfect prints directly to your address.</td>
+                    </tr>
+                    <tr>
+                        <td>**Enlargements are only sold with separate frame and include artwork.</td>
                     </tr>
                 </tfoot>
                 <tbody>
                     <tr>
-                        <th scope="row">24x36</th>
-                        <td>$250</td>
+                        <th scope="row">Hourly Photography</th>
+                        <td>$300</td>
                     </tr>
                     <tr>
-                        <th scope="row">16x24</th>
+                        <th scope="row">24x36 E6 Enlargement**</th>
+                        <td>$245</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16x24 E6 Enlargement**</th>
                         <td>$195</td>
                     </tr>
                     <tr>
-                        <th scope="row">11x14</th>
+                        <th scope="row">Hourly Artwork</th>
+                        <td>$125</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11x14 E6 Enlargement**</th>
                         <td>$115</td>
                     </tr>
                     <tr>
-                        <th scope="row">8x10</th>
+                        <th scope="row">8x10 E6 Print *</th>
                         <td>$75</td>
                     </tr>
                     <tr>
-                        <th scope="row">6k Digital Download</th>
+                        <th scope="row">6k Digital File</th>
                         <td>$45</td>
                     </tr>
                     <tr>
-                        <th scope="row">5x7 Fuji Lustre E6 Print</th>
+                        <th scope="row">5x7 E6 Print *</th>
                         <td>$35</td>
                     </tr>
                     <tr>
-                        <th scope="row">4k Digital Download</th>
+                        <th scope="row">4k Digital File</th>
                         <td>$25</td>
                     </tr>
                     <tr>
-                        <th scope="row">4x6 Fuji Lustre E6 Print</th>
+                        <th scope="row">4x6 E6 Print *</th>
                         <td>$10</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Hourly Photography Services</th>
-                        <td>$300</td>
                     </tr>
                 </tbody>
             </table>
