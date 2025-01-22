@@ -31,13 +31,13 @@ export default function BookingForm() {
               </label>
               <label className="block">
                 <span className="text-gray-700">Notes</span>
-                <textarea className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" rows="3"></textarea>
+                <textarea className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"></textarea>
               </label>
               <div className="block">
                 <div className="mt-2">
                   <div>
                     <label className="inline-flex items-center">
-                      <input type="checkbox" className="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50" checked=""></input>
+                      <input type="checkbox" className="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50"></input>
                       <span className="ml-2">Agree to Terms & Conditions</span>
                     </label>
                   </div>
