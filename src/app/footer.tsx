@@ -14,9 +14,7 @@ export default function Footer() {
             </div>
             <div>
                 <div className="font-display text-white uppercase text-sm tracking-widest mb-6">Services</div>
-                <Link href="/weddings" className="block mb-4">Weddings</Link>
-                <Link href="/portraits" className="block mb-4">Portraits</Link>
-                <a href="#" className="block mb-4">Commercial</a>
+                <Link href="/gallery" className="block mb-4">Gallery</Link>
                 <a href="#" className="block mb-4">Reproduction</a>
                 <a href="#" className="block mb-4">Restoration</a>
                 <a href="#" className="block mb-4">Framing</a>
@@ -25,15 +23,17 @@ export default function Footer() {
                 <div className="font-display text-white uppercase text-sm tracking-widest mb-6">Laboratories</div>
                 <a href="#" className="block mb-4">White House</a>
                 <a href="#" className="block mb-4">ProDPI</a>
-                <a href="#" className="block mb-4">H&H</a>
-                <a href="#" className="block mb-4">Custom</a>
+                <a href="#" className="block mb-4">H&H Color</a>
+                <a href="#" className="block mb-4"></a>
             </div>
             <div>
                 <div className="font-display text-white uppercase text-sm tracking-widest mb-6">Products</div>
-                <a href="#" className="block mb-4">4K</a>
-                <a href="#" className="block mb-4">6K</a>
+                <a href="#" className="block mb-4">B&W</a>
                 <a href="#" className="block mb-4">C41</a>
+                <a href="#" className="block mb-4">4K</a>
                 <a href="#" className="block mb-4">C120</a>
+                <a href="#" className="block mb-4">6K</a>
+                <a href="#" className="block mb-4">12K</a>
             </div>
         </div>
         <div className="text-sm lg:text-base text-center font-heading font-light tracking-widest uppercase text-white opacity-75 pb-24">©2025 Design By DBMCO.NET</div>
