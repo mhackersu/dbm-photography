@@ -13,8 +13,12 @@ export default function BookingForm() {
                 <input type="text" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder=""></input>
               </label>
               <label className="block">
+                <span className="text-gray-700">First name</span>
+                <input type="text" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder=""></input>
+              </label>
+              <label className="block">
                 <span className="text-gray-700">Email address</span>
-                <input type="email" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="john@example.com"></input>
+                <input type="email" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="youremail@gmail.com"></input>
               </label>
               <label className="block">
                 <span className="text-gray-700">Event date</span>
@@ -45,6 +49,10 @@ export default function BookingForm() {
               </div>
             </div>
           </div>
+          <br></br>
+          <button className="bg-transparent hover:bg-slate-500 text-slate-800 font-semibold hover:text-white py-2 px-4 border border-slate-950 hover:border-transparent rounded">
+            Send Inquiry
+          </button>
         </div>
       </div>
     );
