@@ -27,7 +27,7 @@ export default function Footer() {
                 <a href="#" className="block mb-4"></a>
             </div>
             <div>
-                <div className="font-display text-white uppercase text-sm tracking-widest mb-6">Products</div>
+                <div className="font-display text-white uppercase text-sm tracking-widest mb-6">Processes</div>
                 <a href="#" className="block mb-4">B&W</a>
                 <a href="#" className="block mb-4">C41</a>
                 <a href="#" className="block mb-4">4K</a>
