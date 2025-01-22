@@ -1,12 +1,15 @@
 import "../app/styles/globals.css";
-import Footer from '@/app/footer';
 import Header from '@/app/header';
+import GalleryMenu from "@/app/gallery-menu";
+import Footer from '@/app/footer';
 
 export default function Portraits() {
   
     return (
       <div>
         <Header />
+        <br></br>
+        <GalleryMenu />
         {/* Centered Page Title & Subtitle */}
         <div className="py-24 text-center bg-white">
           <h1 className="text-4xl text-green-800 font-display uppercase tracking-widest">Portraits</h1>
