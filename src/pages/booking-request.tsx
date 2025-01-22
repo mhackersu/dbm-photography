@@ -5,7 +5,7 @@ export default function BookingForm() {
     return (
       <div className="bg-gray-100 py-12 flex items-center justify-center uppercase tracking-widest text-xs text-gray-500">
         <div className="py-24">
-          <h2 className="text-2xl font-bold">Reservation Lookup</h2>
+          <h2 className="text-2xl font-bold">Booking Request</h2>
           <div className="mt-8 max-w-md">
             <div className="grid grid-cols-1 gap-6">
               <label className="block">

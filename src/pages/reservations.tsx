@@ -1,6 +1,7 @@
 import "../app/styles/globals.css";
-import Footer from '@/app/footer';
 import Header from '@/app/header';
+import ReservationLookup from "@/pages/reservation-lookup";
+import Footer from '@/app/footer';
 
 export default function Reservations() {
   
@@ -14,6 +15,7 @@ export default function Reservations() {
           <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">
           </h2>
         </div>
+        <ReservationLookup />
         <Footer />
       </div>
     );

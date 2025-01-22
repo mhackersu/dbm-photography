@@ -1,6 +1,6 @@
 import "../app/styles/globals.css";
 import Header from '@/app/header';
-import BookingForm from '@/pages/booking-form';
+import BookingRequest from '@/pages/booking-request';
 import Footer from '@/app/footer';
 
 export default function Booking() {
@@ -15,7 +15,7 @@ export default function Booking() {
           <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">
           </h2>
         </div>
-        <BookingForm />
+        <BookingRequest />
         <br></br>
         <Footer />
       </div>
