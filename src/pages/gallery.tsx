@@ -1,5 +1,6 @@
 import "../app/styles/globals.css";
-import Header from '@/app/header';
+import HeaderNav from "@/pages/header-nav";
+// import Header from '@/app/header';
 import GalleryMenu from "@/app/gallery-menu";
 import Footer from '@/app/footer';
 
@@ -7,8 +8,8 @@ export default function Gallery() {
   
     return (
       <div>
-        <Header />
-        <br></br>
+        {/* <Header /> */}
+        <HeaderNav />
         <GalleryMenu />
         {/* Centered Page Title & Subtitle */}
         <div className="py-24 text-center bg-white">

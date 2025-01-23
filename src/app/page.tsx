@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <div>
       <HeaderAnnouncement />
+      {/* <br></br> */}
       <Header />
       <Card />
       {/* <LandingContent /> */}

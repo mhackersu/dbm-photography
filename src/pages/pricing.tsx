@@ -7,6 +7,7 @@ export default function Pricing() {
   
     return (
       <div>
+        <br></br>
         <Header />
         {/* Centered Page Title & Subtitle */}
         <div className="py-24 text-center bg-white">
@@ -25,10 +26,12 @@ export default function Pricing() {
                 </thead>
                 <tfoot>
                     <tr>
-                        <td>*We ship picture perfect prints directly to your address.</td>
+                        <td>* We ship picture perfect prints directly to your address.</td>
+                        <th></th>
                     </tr>
                     <tr>
-                        <td>**Enlargements are only sold with separate frame and include artwork.</td>
+                        <td>** Enlargements are only sold with separate frame and pricing does not include artwork.</td>
+                        <th></th>
                     </tr>
                 </tfoot>
                 <tbody>

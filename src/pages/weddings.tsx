@@ -1,5 +1,6 @@
 import "../app/styles/globals.css";
-import Header from "@/app/header";
+// import Header from "@/app/header";
+import HeaderNav from "@/pages/header-nav";
 import GalleryMenu from "@/app/gallery-menu";
 import Footer from "@/app/footer";
 
@@ -7,8 +8,9 @@ export default function Weddings() {
   
     return (
       <div>
-        <Header />
-        <br></br>
+        {/* <Header /> */}
+        {/* <br></br> */}
+        <HeaderNav />
         <GalleryMenu />
           {/* Centered Page Title & Subtitle */}
           <div className="py-24 text-center bg-white">

@@ -1,9 +1,10 @@
 import "../app/styles/globals.css";
 import Header from '@/app/header';
-import BookingRequest from '@/pages/booking-request';
+// import ReservationLookup from "@/pages/reservation-lookup";
+import AvailabilityLookup from "@/pages/availability-lookup";
 import Footer from '@/app/footer';
 
-export default function Booking() {
+export default function AvailabilityCalendar() {
   
     return (
       <div>
@@ -11,13 +12,13 @@ export default function Booking() {
         <Header />
         {/* Centered Page Title & Subtitle */}
         <div className="py-24 text-center bg-white">
-          <h1 className="text-4xl text-green-800 font-display uppercase tracking-widest">Booking</h1>
+          <h1 className="text-4xl text-green-800 font-display uppercase tracking-widest">Availability Calendar</h1>
           <div className="w-full max-w-xs h-px bg-gray-300 my-6 mx-auto"></div>
           <h2 className="uppercase max-w-sm mx-auto font-heading font-light tracking-widest text-gray-500">
           </h2>
         </div>
-        <BookingRequest />
-        <br></br>
+        {/* <ReservationLookup /> */}
+        <AvailabilityLookup />
         <Footer />
       </div>
     );

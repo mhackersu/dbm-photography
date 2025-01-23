@@ -6,6 +6,7 @@ export default function About() {
   
     return (
       <div>
+        <br></br>
         <Header />
         {/* Centered Page Title & Subtitle */}
         <div className="py-24 text-center bg-white">
