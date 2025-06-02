@@ -63,7 +63,7 @@ Think timeless
 These photos will be hanging on your walls and treasured for years to come. Choosing simple, classic apparel, you will reveal a timeless aspect in the image.
           </h2>
           <br></br>
-          <a href="/booking" className="text-2xl text-green-800 font-display uppercase tracking-widest">Return To Booking</a>
+          <Link href="/booking" className="text-2xl text-green-800 font-display uppercase tracking-widest">Return To Booking</Link>
         </div>
         <Footer />
       </div>
