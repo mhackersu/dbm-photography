@@ -1,6 +1,7 @@
 import "../app/styles/globals.css";
 import Footer from '@/app/footer';
 import Header from '@/app/header';
+import Link from "next/link";
 
 export default function WhatToWear() {
   
